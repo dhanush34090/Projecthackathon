@@ -1,0 +1,51 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  background: #f4f7fb;
+  color: #222;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(52,152,219,0.14);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+input,
+select,
+textarea {
+  margin: 5px 0;
+  padding: 8px 10px;
+  border: 1px solid #e0e6ef;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+mark {
+  background: #fff176;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+@media (max-width: 880px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr !important;
+  }
+  input[placeholder] {
+    width: 100% !important;
+  }
+}
